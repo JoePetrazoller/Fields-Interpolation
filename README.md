@@ -20,3 +20,4 @@ Where $\langle S\rangle$ is the interpolated quantity, $W_{i}$ the weighting fac
 2. Place inside the same folder the dump file from LAMMPS. It should contain only the last increment.
 3. Inside the interpolation file, set the sigma, the cutoff, the filename, and the size of the box in X and Y direction and launch the calculation.
 4. For more efficiency, one can duplicate 6 times the code and run only one loop of the "for loop" on each file.
+5. One .csv file is created per component. One can than easily open them using for example "contourf" function of Matlab.
